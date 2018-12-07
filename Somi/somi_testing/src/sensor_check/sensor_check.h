@@ -19,8 +19,6 @@ private:
 };
 
 
-// struct TimeoutParameter {};
-
 using Second = NamedType<float, struct SecondParameter>;
 using Timeout = NamedType<Second, struct TimeoutParameter>;
 
